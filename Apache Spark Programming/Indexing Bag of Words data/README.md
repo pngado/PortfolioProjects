@@ -7,7 +7,7 @@ The data consists of two files:
    * vocabId: Instead of storing the word itself, we store an ID from the vocabulary file.
    * count: An integer representing the number of times this word occurred in this document.
   
-The full docword.txt file is too large to be uploaded to GitHub so I have included a smaller version of it for demonstration purposes. 
+  The full docword.txt file is too large to be uploaded to GitHub so I have included a smaller   version of it for demonstration purposes. 
     
 2. The second file called vocab.txt contains each word in the vocabulary, which is indexed by vocabIndex from the docword.txt file:
    * docId
