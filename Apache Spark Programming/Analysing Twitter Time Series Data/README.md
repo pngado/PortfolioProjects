@@ -5,6 +5,8 @@ In this project, I'll be doing some analytics on real Twitter data. The data is 
 * count: An integer representing the number tweets of this hash tag for the given year and month.
 * hashtagName: The #tag name, e.g. babylove, mydate, etc.
 
+The full twitter.tsv is too large to be uploaded to GitHub, so I have included a smaller version of it for demonstration purposes.
+
 Data source: http://www.infochimps.com/datasets/twitter-census-conversation-metrics-one-year-of-urls-hashtags-sm. 
 
 I'll be using HiveQL and SparkRDD to perform the following tasks:
