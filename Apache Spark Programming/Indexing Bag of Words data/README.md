@@ -3,14 +3,14 @@ In this project, I will create a partitioned index of words to documents that co
 The data consists of two files:
 
 1. The first file is called docword.txt, which contains the contents of all the documents. It has the following attributes:
-  * docId: The ID of the document that contains the word
-  * vocabId: Instead of storing the word itself, we store an ID from the vocabulary file.
-  * count: An integer representing the number of times this word occurred in this document.
+   * docId: The ID of the document that contains the word
+   * vocabId: Instead of storing the word itself, we store an ID from the vocabulary file.
+   * count: An integer representing the number of times this word occurred in this document.
     
 2. The second file called vocab.txt contains each word in the vocabulary, which is indexed by vocabIndex from the docword.txt file:
-  * docId
-  * vocabId
-  * count
+   * docId
+   * vocabId
+   * count
 
 I'll be using Spark SQL to perform the following tasks:
 
