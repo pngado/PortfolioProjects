@@ -10,6 +10,17 @@ In this project, I create a deep learning model to classify images of skin lesio
 6.   "DF" = Dermatofibroma
 7.   "VASC" = Vascular lesion
 
+Instead of using the notebook to interact with Python, I've separated my code into a number of files - closer to how a real-life project would be structured. In addition, there's also an Excel spreadsheet that records model training results and a written Word report details the what, why, and how of the project. These files are listed below:
+
+*   `datasets.py`
+*   `explore.py`
+*   `models.py`
+*   `train.py`
+*   `Model Training Code.ipynb`
+*   `Written Report.docx`
+*   `model training results.xlsx`
+
+
 ## Dataset
 
 The data for this task is a subset of: https://challenge2018.isic-archive.com/task3/
